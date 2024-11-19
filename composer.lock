@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1a72e3fea41f8148a198e8cf2406061e",
+    "content-hash": "41be441003d9edfdf8106845ab0b221c",
     "packages": [
         {
             "name": "brick/math",
@@ -1992,17 +1992,17 @@
             "time": "2024-11-12T13:57:08+00:00"
         },
         {
-            "name": "myvendor/example-package",
+            "name": "mysamplepackage/example-package",
             "version": "dev-main",
             "dist": {
                 "type": "path",
                 "url": "./example-package",
-                "reference": "9c6b0a6560b337e9a261bd2880af6e017bd69dcd"
+                "reference": "bffbbbdabd557bc17b8e07c9b7c12c497c5b780f"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "MyVendor\\ExamplePackage\\": "src/"
+                    "MySamplePackage\\ExamplePackage\\": "src/"
                 }
             },
             "description": "Example Laravel Package",
@@ -8144,7 +8144,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "myvendor/example-package": 20
+        "mysamplepackage/example-package": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

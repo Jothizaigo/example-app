@@ -1,9 +1,9 @@
 {
-    "name": "myvendor/example-package",
+    "name": "mysamplepackage/example-package",
     "description": "Example Laravel Package",
     "autoload": {
       "psr-4": {
-        "MyVendor\\ExamplePackage\\": "src/"
+        "MySamplePackage\\ExamplePackage\\": "src/"
       }
     }
   }
