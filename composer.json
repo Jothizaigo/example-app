@@ -1,5 +1,5 @@
 {
-    "name": "laravel/mysamplepackage",
+    "name": "samplepackage/mysamplepackage",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
