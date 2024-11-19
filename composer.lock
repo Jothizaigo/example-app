@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14a44e16623c8a27fbed81b01c509f1b",
+    "content-hash": "1a72e3fea41f8148a198e8cf2406061e",
     "packages": [
         {
             "name": "brick/math",
@@ -1990,6 +1990,26 @@
                 }
             ],
             "time": "2024-11-12T13:57:08+00:00"
+        },
+        {
+            "name": "myvendor/example-package",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./example-package",
+                "reference": "9c6b0a6560b337e9a261bd2880af6e017bd69dcd"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MyVendor\\ExamplePackage\\": "src/"
+                }
+            },
+            "description": "Example Laravel Package",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "nesbot/carbon",
@@ -5392,26 +5412,6 @@
             "time": "2023-12-08T13:03:43+00:00"
         },
         {
-            "name": "vendor/example-package",
-            "version": "1.0.0",
-            "dist": {
-                "type": "path",
-                "url": "./example-package",
-                "reference": "6dad0054b8ff037ef06a8dc1426fc175e8694d79"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ExamplePackage\\": "src/"
-                }
-            },
-            "description": "Example package for demonstration",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v5.6.1",
             "source": {
@@ -8143,7 +8143,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "myvendor/example-package": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
