@@ -1,0 +1,11 @@
+{
+    "name": "vendor/example-package",
+    "description": "Example package for demonstration",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "ExamplePackage\\": "src/"
+        }
+    },
+    "version": "1.0.0"
+}
